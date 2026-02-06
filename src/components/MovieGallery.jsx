@@ -38,9 +38,9 @@ class MovieGallery extends Component {
 
   render() {
     return (
-      <Container>
+      <Container className="p-2">
         <Row>
-          <h4>
+          <h4 className="text-white ps-0 mt-3 mb-2">
             {this.props.header}
             {this.props.query}
           </h4>
