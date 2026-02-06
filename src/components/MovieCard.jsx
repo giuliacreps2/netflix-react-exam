@@ -1,10 +1,10 @@
 import Col from "react-bootstrap/Col";
 
-function MovieCard() {
+function MovieCard(props) {
   return (
     <>
       <Col className="mb-2 text-center px-1">
-        <img class="img-fluid" src="assets/2.png" alt="movie picture" />
+        <img className="img-fluid" src={props.movie.Poster} alt={props.movie.Title} />
       </Col>
     </>
   );
